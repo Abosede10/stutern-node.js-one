@@ -1,0 +1,20 @@
+{
+  "name": "first-node.js-assigment",
+  "version": "1.0.0",
+  "description": "# Index.html # About.html # Contact me # 404.html # Server - index.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/Abosede10/First-Node.js-assigment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abosede10/First-Node.js-assigment/issues"
+  },
+  "homepage": "https://github.com/Abosede10/First-Node.js-assigment#readme"
+}

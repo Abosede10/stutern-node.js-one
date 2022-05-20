@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
+
+        *, *::after, *::before{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: 'Roboto', sans-serif;    
+            background: linear-gradient(to left, rgba(11, 18, 225, 0.755), rgb(187, 7, 7));  
+            height: 100vh;    
+           
+        }
+        
+        header{
+             background-color: #000;
+             
+         }
+         nav{
+             display: flex;
+             justify-content: space-around;
+             align-items: center;
+             align-content: center;
+             padding: 2rem 0;
+         }
+         ul{
+             display: flex;
+             justify-content: space-evenly;
+         }
+         li{
+             list-style: none;
+             padding: 15px;
+         }
+         a{
+             color: #fff;
+             font-size: 19px;
+             text-decoration: none;
+         }
+
+         a:hover{
+             color: rgb(221, 37, 37);
+         }
+         .logo  h1 a{
+             color: #fff;
+             cursor: pointer;
+             font-size: 28px;
+         }
+         .logo  h1 a:hover{
+             color: rgb(221, 37, 37);
+         }
+         .about-intro{
+             /* background: linear-gradient(to right, rgb(161, 24, 161), rgb(25, 25, 172)); */
+             min-height: 610px;
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+             justify-content: center;
+             text-align: center;
+             color: #fff;
+             letter-spacing: 2px;
+             line-height: 24px;
+                        
+         }
+         .about-intro h1{
+             font-size: 38px;
+             margin-bottom: 2rem;
+         }
+         .about-intro p{
+            padding-left: 5rem;
+            padding-right:5rem;
+            font-family: 'Josefin Sans', sans-serif;
+            letter-spacing: 1px;
+         }
+    </style>
+</head>
+<body> 
+
+    <header>
+        <nav>
+            <div class="logo">
+                <h1> <a href="/">NODE PROJECT</a></h1>
+            </div>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About Us</a></li>
+                <li><a href="/contact-me">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="about-intro">
+        <h1>About Node.js</h1>
+        <p>
+            Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser. Node.js lets developers use JavaScript to write command line tools and for server-side scripting—running scripts server-side to produce dynamic web page content before the page is sent to the user's web browser. Consequently, Node.js represents a "JavaScript everywhere" paradigm,[6] unifying web-application development around a single programming language, rather than different languages for server-side and client-side scripts.
+        </p>
+    </section>
+</body>
+</html>
