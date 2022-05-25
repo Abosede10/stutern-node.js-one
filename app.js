@@ -2,7 +2,9 @@ const express = require("express");
 
 const app = express()
 
-app.listen(8080)
+var PORT = process.env.PORT || 8080
+
+app.listen(PORT)
 app.get('/', (req, res)=>{
     res.sendFile('./views/index.html', {root: __dirname})
 })
