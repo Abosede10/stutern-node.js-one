@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Abosede10/First-Node.js-assigment/issues"
   },
-  "homepage": "https://github.com/Abosede10/First-Node.js-assigment#readme"
+  "homepage": "https://github.com/Abosede10/First-Node.js-assigment#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
